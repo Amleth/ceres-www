@@ -1,0 +1,4253 @@
+[ {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174386&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-22"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174386"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174386"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-22"
+  } ],
+  "http://purl.org/iso25964/skos-thes#narrowerPartitive" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174520&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174398&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174410&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174412&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174414&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174416&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174418&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174420&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174422&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174424&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174438&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174442&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174460&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174464&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174490&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174492&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174494&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Primitive savante"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174388&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174390##174388"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174388"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174390&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Source"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174390&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174390"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174390"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174388&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174392&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174396&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Entité informationnelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174392&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174390##174392"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174392"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174390&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174394&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Collection conservée"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174394&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174390##174392##174394"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174394"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174392&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Archive de presse"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174396&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174390##174396"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174396"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174390&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Publication Web"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174398&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174386##174398"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174398"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174386&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174408&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Établir des  critères pour constituer un corpus"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174402&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174402"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174402"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/iso25964/skos-thes#subordinateArray" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idf=F4&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174404&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174458&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174462&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174484&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174486&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174488&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Opération technique"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174404&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174402##174404"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174404"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174402&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Numérisation"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174408&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174386##174398##174408"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174408"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174398&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Critère temporel"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174410&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174386##174410"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174410"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174386&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Comparer"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174412&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174386##174412"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174412"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174386&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Observer l'apparition d'un observable"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174414&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174386##174414"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174414"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2022-09-16"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174386&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Analyser la dynamique d'un phénomène temporel"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174416&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174386##174416"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174416"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174386&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Analyser l'évolution temporelle du sens d'un objet symbolique"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174418&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174386##174418"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174418"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174386&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Analyser les co-occurences d'objets symboliques"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174420&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174386##174420"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174420"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174386&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Analyser la circulation d'un objet symbolique"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174422&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174386##174422"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174422"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174386&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Obtenir une information statistique"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174424&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174386##174424"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174424"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174386&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Faire ressortir les thématiques au sein d'une entité informationnelle"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174426&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174426"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174426"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174428&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174430&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Observable"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174428&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174426##174428"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174428"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174426&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Phénomène temporel"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174430&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174426##174430"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174430"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/iso25964/skos-thes#narrowerPartitive" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174498&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174500&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174426&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174432&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174434&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174436&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Objet symbolique"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174432&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174426##174430##174432"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174432"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174430&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Image"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174434&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174426##174430##174434"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174434"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174430&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Mot"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174436&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174426##174430##174436"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174436"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174430&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Expression"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174438&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174386##174438"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174438"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174386&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Identifier les objets symboliques dénotant un fait social"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174442&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174386##174442"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174442"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174386&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Appréhender un corpus vaste"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174444&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174444"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174444"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/iso25964/skos-thes#narrowerPartitive" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174502&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174446&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174448&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174450&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Outils"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174446&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174444##174446"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174446"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174444&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "TXM"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174448&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174444##174448"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174448"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174444&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "IRAMUTEQ"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174450&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174444##174450"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174450"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174444&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Gephi"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174454&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174402##174484##174454"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174454"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174484&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Consommer une API REST"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174456&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174402##174484##174456"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174456"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174484&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Consommer une API temps réel"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174458&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174402##174458"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174458"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174402&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Requêter une base de données"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174460&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174386##174460"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174460"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174386&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Obtenir une vue synoptique sur un ensemble d'objets symboliques"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174462&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174402##174462"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174462"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174402&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Faire tourner un algorithme de ML"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174464&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174386##174464"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174464"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174386&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Compléter un corpus"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174466&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174466"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174466"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174468&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174470&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174472&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174474&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174476&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174478&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174480&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174482&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Réseau social numérique"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174468&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174466##174468"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174468"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174466&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Twitter"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174470&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174466##174470"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174470"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174466&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Instagram"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174472&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174466##174472"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174472"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174466&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Youtube"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174474&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174466##174474"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174474"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174466&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Facebook"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174476&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174466##174476"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174476"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174466&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Discord"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174478&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174466##174478"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174478"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174466&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "WhatsApp"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174480&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174466##174480"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174480"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174466&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Twitch"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174482&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174466##174482"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174482"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174466&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "LinkedIn"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174484&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174402##174484"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174484"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174402&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174454&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174456&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Consommer une API"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174486&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174402##174486"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174486"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174402&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Automatiser la navigation hypertexte"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174488&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174402##174488"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174488"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174402&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Dédoublonner"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174490&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174386##174490"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174490"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174386&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Annoter"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174492&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174386##174492"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174492"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174386&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Publier"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174494&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174386##174494"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174494"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/iso25964/skos-thes#narrowerPartitive" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174496&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174386&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Travailler sur les aspects juridiques"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174496&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174386##174494##174496"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174496"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/iso25964/skos-thes#broaderPartitive" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174494&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Identifier ce qui peut poser problème sur le plan juridique"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174498&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174426##174430##174498"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174498"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/iso25964/skos-thes#broaderPartitive" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174430&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Vidéo"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174500&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174426##174430##174500"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174500"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/iso25964/skos-thes#broaderPartitive" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174430&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Texte"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174502&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174444##174502"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174502"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/iso25964/skos-thes#broaderPartitive" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174444&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Hyphe"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174504&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174504"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174504"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/iso25964/skos-thes#narrowerPartitive" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174506&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174508&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174510&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Faits sociaux"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174506&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174504##174506"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174506"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/iso25964/skos-thes#broaderPartitive" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174504&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Controverse"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174508&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174504##174508"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174508"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/iso25964/skos-thes#broaderPartitive" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174504&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Mobilisation"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174510&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174504##174510"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174510"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/iso25964/skos-thes#broaderPartitive" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174504&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Journalisme"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174512&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174512"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174512"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/iso25964/skos-thes#narrowerPartitive" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174514&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174516&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174518&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Rapport au numérique"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174514&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174512##174514"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174514"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/iso25964/skos-thes#broaderPartitive" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174512&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Gagner du temps"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174516&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174512##174516"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174516"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/iso25964/skos-thes#broaderPartitive" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174512&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Perdre du temps"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174518&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174512##174518"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174518"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/iso25964/skos-thes#broaderPartitive" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174512&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Frustration"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174520&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "174386##174520"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "174520"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-05-23"
+  } ],
+  "http://purl.org/iso25964/skos-thes#broaderPartitive" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=174386&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Débruiter un corpus"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277823&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-16"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277823"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277823"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-16"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277880&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277881&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277882&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277883&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277884&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277885&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277886&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277887&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277888&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277889&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277890&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277891&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277892&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277893&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277894&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Activités"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277824&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-16"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277824"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277824"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-16"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277870&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277871&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277872&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277873&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277874&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277875&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277876&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277877&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277878&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277879&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Tâches"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277826&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277826"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277826"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277827&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277828&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277829&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277830&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277831&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277832&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277833&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277834&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277835&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277836&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277837&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Activité de recherche / réseaux sociaux"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277827&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277826##277827"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277827"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277826&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Début de la recherche"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277828&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277826##277828"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277828"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277826&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Création de la bibliographie"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277829&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277826##277829"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277829"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277826&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Exploration du terrain"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277830&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277826##277830"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277830"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277826&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Extraction de données"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277831&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277826##277831"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277831"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277826&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Stockage d'images"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277832&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277826##277832"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277832"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277826&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Stockage de textes"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277833&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277826##277833"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277833"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277826&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Stockage d'URL"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277834&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277826##277834"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277834"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277826&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Recherche d'information"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277835&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277826##277835"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277835"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277826&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Formalisation du protocole de l'étude"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277836&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277826##277836"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277836"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277826&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Analyse des données"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277837&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277826##277837"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277837"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277826&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Valorisation de l'étude"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277838&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277838"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277838"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277839&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277840&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Tâche1 : début de la recherche"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277839&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277838##277839"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277839"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277838&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Déclencheur"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277840&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277838##277840"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277840"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277838&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Question générale"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277841&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277841"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277841"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277842&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277843&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277844&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277845&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277846&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277847&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277848&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Tâche : exploration"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277842&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277841##277842"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277842"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277841&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Réseaux sociaux"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277843&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277841##277843"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277843"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277841&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Forums en ligne"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277844&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277841##277844"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277844"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277841&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Sites web"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277845&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277841##277845"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277845"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277841&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Presse en ligne"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277846&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277841##277846"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277846"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277841&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Ouvrages et revues print"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277847&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277841##277847"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277847"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277841&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Lieux physiques"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277848&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277841##277848"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277848"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277841&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Publicités télévisées"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277849&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277849"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277849"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277850&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277851&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277852&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Tâche : collecte et extractions de données"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277850&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277849##277850"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277850"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277849&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Images (captures d'écran)"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277851&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277849##277851"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277851"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277849&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Textes (copier-coller)"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277852&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277849##277852"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277852"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277849&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "URL (copier-coller)"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277853&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277853"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277853"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277854&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277855&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277856&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Tâche : stockage"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277854&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277853##277854"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277854"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277853&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Images"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277855&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277853##277855"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277855"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277853&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Textes"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277856&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277853##277856"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277856"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277853&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "URL"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277857&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277857"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277857"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277858&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277859&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277860&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277861&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277862&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277863&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Tâche : recherche d'information"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277858&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277857##277858"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277858"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277857&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Moteurs de recherche"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277859&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277857##277859"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277859"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277857&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Outils Google"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277860&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277857##277860"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277860"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277857&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Sources académiques en ligne"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277861&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277857##277861"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277861"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277857&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Presse en ligne"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277862&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277857##277862"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277862"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277857&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Réseaux sociaux"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277863&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277857##277863"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277863"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277857&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Forums en ligne"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277864&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277864"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277864"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277895&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277896&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277897&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Tâche : formalisation du protocole"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277865&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277865"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277865"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277866&idt=th265"
+  }, {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277867&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Tâche : analyse des données"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277866&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277865##277866"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277866"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277865&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Classification des données"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277867&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277865##277867"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277867"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277865&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Production de relations sur les données"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277868&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277868"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277868"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277869&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Tâche : valorisation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277869&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277868##277869"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277869"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277868&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Publication"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277870&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277824##277870"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277870"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277824&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Début de la recherche"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277871&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277824##277871"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277871"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277824&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Création de la bibliographie"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277872&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277824##277872"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277872"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277824&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Exploration du terrain"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277873&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277824##277873"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277873"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277824&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Extraction de données"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277874&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277824##277874"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277874"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277824&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Collecte de données"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277875&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277824##277875"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277875"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277824&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Stockage"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277876&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277824##277876"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277876"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277824&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Recherche d'information"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277877&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277824##277877"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277877"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277824&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Formalisation du protocole de l'étude"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277878&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277824##277878"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277878"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277824&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Analyse des données"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277879&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277824##277879"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277879"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277824&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Valorisation de l'étude"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277880&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277823##277880"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277880"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277823&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Thématique initiale de recherche"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277881&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277823##277881"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277881"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277823&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Terrains d'étude"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277882&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277823##277882"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277882"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277823&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Problématiques"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277883&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277823##277883"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277883"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277823&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Caractéristiques du corpus"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277884&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277823##277884"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277884"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277823&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Caractéristiques de l'analyse"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277885&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277823##277885"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277885"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277823&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Degrés d'expertise du chercheur"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277886&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277823##277886"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277886"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277823&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Outils utilisés"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277887&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277823##277887"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277887"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277823&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Méthodes utilisées"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277888&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277823##277888"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277888"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277823&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Besoins actuels"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277889&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277823##277889"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277889"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277823&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Souhaits"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277890&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277823##277890"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277890"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277823&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Contraintes"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277891&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277823##277891"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277891"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277823&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Difficultés"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277892&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277823##277892"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277892"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277823&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Caractéristiques du processus de recherche"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277893&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277823##277893"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277893"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277823&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Ressources humaines"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277894&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277823##277894"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277894"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277823&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Collaborations"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277895&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277864##277895"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277895"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277864&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Périmètre du corpus"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277896&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277864##277896"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277896"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277864&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Justification des critères étudiés"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277897&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277864##277897"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277897"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277864&idt=th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Références mobilisées"
+  } ]
+}, {
+  "@id" : "https://opentheso.huma-num.fr/opentheso/?idc=277898&idt=th265",
+  "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "tbottini"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "277898"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "277898"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-09-21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Activité de recherche / Humanités numériques"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://opentheso.huma-num.fr/opentheso/th265"
+  } ]
+} ]
