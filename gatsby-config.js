@@ -7,24 +7,61 @@ module.exports = {
       { id: `felix`, name: `Félix Alié` }
     ]
   },
-  plugins: ["gatsby-plugin-emotion", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
-    resolve: 'gatsby-plugin-manifest',
-    options: {
-      "icon": "src/images/icon.png"
-    }
-  }, "gatsby-transformer-remark", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+  plugins: [
+    "gatsby-plugin-emotion",
+    "gatsby-plugin-image",
+    "gatsby-plugin-sitemap", {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        "icon": "src/images/icon.png"
+      }
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            // options: {
+            //   maxWidth: 590,
+            // },
+          },
+          {
+            resolve: `gatsby-remark-responsive-iframe`,
+            // options: {
+            //   wrapperStyle: `margin-bottom: 1.0725rem`,
+            // },
+          },
+          `gatsby-remark-prismjs`,
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`,
+        ],
+      },
+    },
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         "name": "images",
         "path": "./src/images/"
       },
       __key: "images"
-    }, {
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         "name": "pages",
         "path": "./src/pages/"
       },
       __key: "pages"
-    }]
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blog-posts`,
+        path: `${__dirname}/src/data/blog/`,
+      },
+    },
+  ],
 };

@@ -1,10 +1,11 @@
 import { graphql } from 'gatsby'
 import React from 'react'
 import { SKOS_PREFLABEL } from '../constants'
+import { getRDFFrValue } from '../helpers'
 
 const Concept = ({ pageContext }) => {
     return <>
-        <h1>{pageContext[SKOS_PREFLABEL].find(l => l["@language"] === "fr")["@value"]}</h1>
+        <h1>{getRDFFrValue(pageContext[SKOS_PREFLABEL])}</h1>
         <p>Coucou</p>
     </>
 }

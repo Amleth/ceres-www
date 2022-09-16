@@ -1,0 +1,1 @@
+export const getRDFFrValue = data => data.find(l => l["@language"] === "fr")["@value"]
