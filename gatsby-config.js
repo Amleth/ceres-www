@@ -4,7 +4,9 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`,
     authors: [
       { id: `thomas`, name: `Thomas Bottini` },
-      { id: `felix`, name: `Félix Alié` }
+      { id: `felix`, name: `Félix Alié` },
+      { id: `edouard`, name: `Édouard Bouté` },
+      { id: `ceres`, name: `L'équipe CERES` }
     ]
   },
   plugins: [
