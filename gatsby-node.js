@@ -60,14 +60,14 @@ exports.createPages = async ({ graphql, actions }) => {
   // THESAURUS
   ////////////////////////////////////////////////////////////////////////////////
 
-  for (const concept of thesaurus) {
-    const id = concept["http://purl.org/dc/terms/identifier"][0]["@value"]
-    createPage({
-      path: `/concept/${id}`,
-      component: path.resolve(`src/templates/concept.jsx`),
-      context: concept
-    })
-  }
+  // for (const concept of thesaurus) {
+  //   const id = concept["http://purl.org/dc/terms/identifier"][0]["@value"]
+  //   createPage({
+  //     path: `/concept/${id}`,
+  //     component: path.resolve(`src/templates/concept.jsx`),
+  //     context: concept
+  //   })
+  // }
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
