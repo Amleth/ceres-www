@@ -8,7 +8,7 @@ const BlogPost = (props) => {
 }
 
 export const q = graphql`
-  query MyQuery($slug: String!) {
+  query BlogPostBySlug($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug }}) {
       id
       excerpt(pruneLength: 160)
