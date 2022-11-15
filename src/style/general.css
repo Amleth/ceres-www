@@ -1,0 +1,508 @@
+/* Variables générales */
+
+@import url(https://rsms.me/inter/inter.css);
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
+:root {
+    /* Texte et arrière-plan */
+    --text: rgb(210, 210, 210);
+    --background: 20, 20, 20;
+    --background-color: rgb(var(--background));
+    --light-background: rgb(40, 40, 40);
+
+    /* Couleur de mise en exergue du site */
+    /* --test: rgb(130, 190, 255); */
+    --main-red: 130;
+    --main-green: 190;
+    --main-blue: 255;
+    --main: var(--main-red), var(--main-green), var(--main-blue);
+    --main-color: rgb(var(--main));
+
+    --border-width: 0.13rem;
+
+    /* Couleur de désactivation, de mise en retrait */
+    /* --test: rgb(170, 170, 170) */
+    --disabled: 170, 170, 170;
+    --disabled-color: rgb(var(--disabled));
+
+    /* Diviseurs et contours */
+    --hr-color: rgb(80, 80, 80);
+    --hr: var(--border-width) solid var(--hr-color);
+    --hr-main: var(--border-width) solid rgba(var(--main), 0.8);
+
+    /* Citations */
+    --bquote: rgb(190, 190, 190);
+    /* --bquote: rgb(min(calc(var(--main-red) / 2 + 120), 235),
+                min(calc(var(--main-green) / 2 + 120), 235),
+                min(calc(var(--main-blue) / 2 + 120), 235)); */
+
+    /* Code */
+    --code: rgb(243, 101, 96);
+
+    /* Cartes */
+    --in-card-margin: 0.6rem;
+    --card-padding: 1rem;
+    --card-border-radius: 0.4rem;
+}
+
+::selection {
+    color: var(--background-color);
+    background: rgba(var(--main), 0.8);
+}
+
+*:focus {
+    outline: none;
+    border-radius: 0.2rem;
+    border: var(--hr-main) !important;
+    background-color: rgba(var(--main), 0.2) !important;
+}
+
+/* Général */
+
+html {
+    background-color: var(--background-color);
+    font-size: calc(13.4px + 0.13vw);
+    scroll-behavior: smooth;
+}
+
+@media only screen and (hover: none) and (pointer: coarse) {
+
+    /* Taille de typo pour téléphone */
+    html {
+        font-size: 3.5vw;
+    }
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: var(--text);
+    margin: 0;
+}
+
+#page-container {
+    margin-left: 3.5rem;
+}
+
+/* Titres */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: normal;
+}
+
+h1 {
+    font-size: 2.6rem;
+    margin: 1.8rem 0 1rem 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.3rem;
+    margin: 1.6rem 0 0.8rem 0;
+    font-weight: 400;
+    border-bottom: var(--hr);
+    padding-bottom: 0.3rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+    margin: 1.5rem 0 0.8rem 0;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 1.6rem;
+    margin: 1.4rem 0 0.8rem 0;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 1.4rem;
+    margin: 1.3rem 0 0.8rem 0;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+h6 {
+    font-size: 1.2rem;
+    margin: 1.1rem 0 0.7rem 0;
+    font-weight: 500;
+}
+
+/* Paragraphes */
+
+p,
+li {
+    margin: 0.6rem 0;
+    line-height: 1.4;
+}
+
+/* Listes */
+
+li {
+    position: relative;
+    padding-left: 0.2rem;
+}
+
+ul,
+ol {
+    padding-left: 0;
+}
+
+ul>li,
+ol>li {
+    margin-left: 1.5rem;
+}
+
+ul>li {
+    list-style-type: disc;
+}
+
+/* Citations */
+
+blockquote::before {
+    position: relative;
+    display: block;
+    content: '“';
+    font-size: 6rem;
+    left: -3.5rem;
+    -webkit-text-stroke: 0.1rem var(--bquote);
+    color: var(--background-color);
+    height: 0;
+    width: 0;
+}
+
+blockquote {
+    padding-left: 1.5rem;
+    color: var(--bquote);
+    margin: 0 0 1rem 2rem;
+    font-weight: 300;
+    font-size: 110%;
+}
+
+blockquote:first-child {
+    color: red !important;
+}
+
+/* Code */
+
+code {
+    font-family: 'Fira Code', monospace;
+    color: var(--code);
+    background: var(--light-background);
+    box-shadow: 0.2rem 0 0 var(--light-background), -0.2rem 0 0 var(--light-background);
+    padding: 0.2rem 0;
+    border-radius: 0.2rem;
+}
+
+pre {
+    background: var(--light-background);
+    border-radius: 0.25rem;
+    padding: 1rem;
+}
+
+pre>code {
+    background: none;
+    box-shadow: none;
+    color: var(--code);
+}
+
+/* Emphase */
+
+strong {
+    font-weight: 600;
+}
+
+em {
+    font-style: italic;
+}
+
+/* Liens externes */
+
+a:not([href^="http://memes.sorbonne-universite.fr/"]) {
+    color: var(--main-color);
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+a:not([href^="http://memes.sorbonne-universite.fr/"]):hover {
+    color: var(--main-color);
+    text-decoration: underline;
+}
+
+/* Liens internes au site insérés dans le texte */
+
+a:not([class]):not([id])[href^="http://memes.sorbonne-universite.fr"] {
+    text-decoration: none;
+    color: var(--main-color);
+    background: rgba(var(--main), 0.1);
+    box-shadow: 0.2rem 0 0 rgba(var(--main), 0.1), -0.2rem 0 0 rgba(var(--main), 0.1);
+    border-radius: 0.2rem;
+    transition: 0.1s;
+}
+
+a:not([class]):not([id])[href^="http://memes.sorbonne-universite.fr"]:after {
+    content: " ↗";
+}
+
+a:not([class]):not([id])[href^="http://memes.sorbonne-universite.fr"]:hover {
+    text-decoration: none;
+    background: rgba(var(--main), 0.3);
+    box-shadow: 0.2rem 0 0 rgba(var(--main), 0.3), -0.2rem 0 0 rgba(var(--main), 0.3);
+}
+
+a:hover{
+    cursor:pointer
+}
+/* Tags */
+
+.tag,
+.small-tag {
+    display: block;
+    width: fit-content;
+    border-radius: 100rem;
+    margin: 0;
+    transition: 0.05s;
+    text-decoration: none;
+    text-align: center;
+    color: var(--main-color);
+    font-weight: 500;
+    border: var(--border-width) solid rgba(var(--main), 0.8);
+    background: var(--background-color);
+}
+
+.tag:hover,
+.small-tag:hover {
+    background-color: var(--main-color);
+    color: var(--background-color) !important;
+    text-decoration: none !important;
+}
+
+.tag {
+    padding: 0.4rem 0.5rem 0.4rem 0.5rem;
+}
+
+.small-tag {
+    font-size: 85%;
+    padding: 0.3rem 0.4rem 0.3rem 0.4rem;
+}
+
+/* Encarts */
+
+aside {
+    padding: 0 0.8rem 0 0.8rem;
+    margin: 1.2rem auto 1.2rem auto;
+    width: 90%;
+    background-color: rgba(var(--main), 0.15);
+    border-radius: 0.3rem;
+    border: var(--border-width) solid rgba(var(--main), 0.5);
+}
+
+/* Diviseurs */
+
+hr {
+    border: 0;
+    border-top: var(--hr);
+}
+
+/* Tableaux */
+
+table {
+    margin: 1rem auto 1rem auto;
+    border-radius: var(--border-width);
+    box-shadow: 0 0 0 0.1rem var(--hr-color);
+    border-collapse: collapse;
+    border-style: hidden;
+    overflow: hidden;
+    font-size: 95%;
+    table-layout: auto;
+    max-width: 100%;
+
+}
+
+table td,
+table th {
+    border: var(--hr) !important;
+    padding: 0.7rem;
+}
+
+td {
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+}
+
+th {
+    font-weight: 500;
+    background-color: var(--light-background);
+}
+
+table tr:first-child th {
+    border-top: 0;
+}
+
+table tr:last-child td {
+    border-bottom: 0;
+}
+
+table tr td:first-child,
+table tr th:first-child {
+    border-left: 0;
+}
+
+table tr td:last-child,
+table tr th:last-child {
+    border-right: 0;
+}
+
+/* Cartes */
+
+#cards-container {
+    max-width: 70rem;
+    margin: 0 auto 3rem auto;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    gap: 1rem;
+}
+
+.card {
+    position: relative;
+    flex: 1 1 15rem;
+    max-width: 20rem;
+    padding: 0 var(--card-padding) var(--card-padding) var(--card-padding);
+    border: var(--hr);
+    border-radius: var(--card-border-radius);
+    transition: 0.1s;
+}
+
+.card-link {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    top: -var(--border-width);
+    left: -var(--border-width);
+}
+
+.card:hover {
+    background-color: var(--light-background);
+}
+
+.card>h4,
+.text-sample {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+
+.text-sample {
+    font-size: 90%;
+    margin: 0;
+}
+
+.card>img {
+    width: calc(100% + 2 * var(--card-padding));
+    margin-left: calc(0rem - var(--card-padding));
+    object-fit: cover;
+    height: 13rem;
+    border-radius: calc(var(--card-border-radius) - var(--border-width)) calc(var(--card-border-radius) - var(--border-width)) 0 0;
+}
+
+.card>h4 {
+    margin-top: var(--in-card-margin);
+}
+
+.small-tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: var(--in-card-margin) 0 var(--in-card-margin) 0;
+    max-height: 4.5rem;
+    overflow: hidden;
+}
+
+.small-tags-container>.small-tag {
+    z-index: 2;
+}
+
+.date {
+    font-size: 90%;
+    color: var(--disabled-color);
+    margin: 0 0 var(--in-card-margin) 0;
+}
+
+/* Boutons de navigation */
+
+#buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    gap: 0.5rem;
+    margin: 0 auto 0 auto;
+}
+
+.button,
+.arrow {
+    display: block;
+    text-align: center;
+    border-radius: 0.4rem;
+    margin: 0;
+    transition: 0.1s;
+    text-decoration: none !important;
+    color: var(--main-color);
+    font-weight: 500;
+}
+
+.button:hover,
+.arrow:not(.disabled):hover {
+    background-color: rgba(var(--main), 0.3);
+    cursor: pointer;
+}
+
+.button {
+    padding: 0.4rem 0.7rem 0.4rem 0.7rem;
+    border: var(--border-width) solid rgba(var(--main), 0.8);
+}
+
+.button.active {
+    background-color: var(--main-color);
+    color: var(--background-color) !important;
+}
+
+.arrow {
+    padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+}
+
+.arrow.disabled {
+    color: var(--disabled-color) !important;
+}
+
+/* Champs de texte */
+input {
+    width: calc(100% - 1rem - 0.25rem);
+    background: var(--background-color);
+    border: var(--hr);
+    color: var(--text);
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    margin: 1rem 0 1rem 0;
+}
+
+input:focus {
+    background: var(--background-color) !important;
+}

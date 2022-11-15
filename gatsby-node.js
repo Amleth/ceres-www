@@ -76,6 +76,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   if (node.internal.type === `MarkdownRemark`) {
 
     const slug = createFilePath({ node, getNode }).replace('/', '')
+
     createNodeField({
       node: node,
       name: `slug`,
@@ -83,6 +84,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
 
     const date = slug.split('_')[0]
+    
     createNodeField({
       node: node,
       name: `date`,

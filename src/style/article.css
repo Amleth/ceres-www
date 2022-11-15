@@ -1,0 +1,116 @@
+:root {
+    --toc-width: calc(20rem);
+    --toc-padding: 1rem;
+    --ext-margin: max(1rem, 40vw - 25rem);
+    --art-width: 43rem;
+}
+
+/* Article */
+
+#article-container {
+    float: right;
+    max-width: var(--art-width);
+    margin-top: 0;
+    margin-right: calc(var(--ext-margin) + var(--toc-width) + 2 * var(--toc-padding) + 2rem);
+    margin-bottom: 0;
+    margin-left: var(--ext-margin);
+}
+
+#article-container.header{
+    text-align: center;
+}
+#article-meta {
+    font-style: italic;
+    color: lightslategray;
+}
+/* Table des matières */
+
+#toc-container {
+    position: fixed;
+    right: var(--ext-margin);
+    width: var(--toc-width);
+    margin-top: 1rem;
+    background-color: var(--background-color);
+    border: var(--hr);
+    border-radius: 0.32rem;
+    padding: 0 var(--toc-padding) 0 var(--toc-padding);
+    list-style: none;
+    color: var(--disabled-color);
+    z-index: 1;
+}
+
+#toc-container>nav>ul {
+    max-height: calc(85vh - 12rem);
+    overflow: scroll;
+    margin: 0.3rem 0 1rem 0;
+}
+
+#toc-container a {
+    transition: 0s;
+    font-size: 95%;
+    color: var(--disabled-color);
+}
+
+#toc-container a:hover {
+    color: var(--text);
+    text-decoration: none;
+}
+
+#toc-container li {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 1.3;
+}
+
+#toc-container>nav>ul>li {
+    margin: 0.8rem 0 0.6rem 0;
+}
+
+#toc-container>nav>ul>ul>li {
+    margin: 0.3rem 0 0.3rem 1rem;
+    font-size: 90%;
+}
+
+/* Tags */
+
+#tags-container {
+    border-top: var(--hr);
+    border-bottom: var(--hr);
+    padding: 0.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+    align-content: center;
+    width: 90%;
+    margin: 2rem auto 2rem auto;
+}
+
+#tags-container:before {
+    content: "Tags :"
+}
+
+/* Images */
+
+img {
+    max-width: 92%;
+    max-height: 45rem;
+    display: block;
+    margin: 1rem auto 1rem auto;
+}
+
+/* Breakpoints */
+
+@media (max-width: 60rem),
+only screen and (hover: none) and (pointer: coarse) {
+    #toc-container {
+        display: none;
+    }
+
+    #article-container {
+        right: auto;
+        margin-inline: max(1rem, 50% - var(--art-width) / 2);
+    }
+}
