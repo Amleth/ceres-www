@@ -43,6 +43,7 @@
     --in-card-margin: 0.6rem;
     --card-padding: 1rem;
     --card-border-radius: 0.4rem;
+    
 }
 
 ::selection {
@@ -50,12 +51,12 @@
     background: rgba(var(--main), 0.8);
 }
 
-*:focus {
+/* *:focus {
     outline: none;
     border-radius: 0.2rem;
     border: var(--hr-main) !important;
     background-color: rgba(var(--main), 0.2) !important;
-}
+} */
 
 /* Général */
 
@@ -110,8 +111,8 @@ h2 {
 }
 
 h3 {
-    font-size: 1.8rem;
-    margin: 1.5rem 0 0.8rem 0;
+    font-size: 1.6rem;
+    margin: 1.4rem 0 0.8rem 0;
     font-weight: 500;
 }
 

@@ -1,0 +1,150 @@
+/* Panneau */
+
+#tags-panel-container {
+    position: fixed;
+    left: -18rem;
+    padding: 1rem 0.5rem 0 1rem;
+    width: 20rem;
+    height: calc(100vh - 1rem);
+    transition: 0.1s;
+    background: var(--background-color);
+    border-right: var(--hr);
+    z-index: 3;
+    box-shadow: 0 0 2rem rgba(var(--background), 0.6);
+}
+
+#tags-panel {
+    height: inherit;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Breakpoints */
+
+@media (max-width: 32rem),
+only screen and (hover: none) and (pointer: coarse) {
+    #tags-panel-container {
+        display: none;
+    }
+
+    #page-container {
+        margin-left: 0;
+    }
+}
+
+/* Blocs flexbox du panneau */
+
+#tags-panel-text {
+    visibility: hidden;
+    font-size: 95%;
+    flex: 0 1 auto;
+}
+
+#title-button-container {
+    font-size: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+#title-button-container>p {
+    visibility: hidden;
+}
+
+#tags-panel>hr {
+    visibility: hidden;
+    width: 100%;
+    margin: 1rem 0 0 0;
+}
+
+#tags-panel-tree {
+    visibility: hidden;
+    flex: 1 1 auto;
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* Cacher la barre de défilement pour Internet Explorer, Edge et Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Cacher la barre de défilement pour Chrome, Safari et Opera */
+#tags-panel-tree::-webkit-scrollbar {
+    display: none;
+}
+
+/* Tags du panneau */
+
+#tags-panel-tree .small-tag {
+    color: var(--disabled-color);
+    border-color: var(--disabled-color);
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+#tags-panel-tree .small-tag:hover {
+    border-color: rgba(var(--main), 0.6) !important;
+    background-color: var(--background-color);
+    color: rgba(var(--main), 0.9) !important;
+}
+
+#tags-panel-tree .small-tag.selected {
+    color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+}
+
+/* Listes de tags */
+
+#tags-panel-tree,
+.tag-list {
+    flex-direction: column;
+}
+
+.tag-list {
+    display: none;
+    position: relative;
+    margin: 0 0 1rem 2rem;
+    padding: 0 0 0 1rem;
+    height: fit-content;
+    z-index: 1;
+    border-left: var(--hr);
+}
+
+.tag-list .small-tag {
+    position: relative;
+}
+
+/* Arborescence */
+
+.tag-list .small-tag::before {
+    /* balises svg encodées grâce à https://yoksel.github.io/url-encoder/ */
+    content: url("data: image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='4' %3E%3Cpath d='M 0 0 H 20' style='fill:none;stroke:rgb(80, 80, 80);stroke-width:4;' /%3E%3C/svg%3E");
+    position: absolute;
+    display: block;
+    left: -1.2rem;
+    top: 0.07;
+    z-index: -1;
+}
+
+/* Tags parents */
+
+.parent-tag-container {
+    display: flex;
+    align-items: baseline;
+    gap: 0.4rem;
+}
+
+.parent-arrow::before {
+    content: url("data:image/svg+xml,%3Csvg width='11' height='12' viewBox='0 0 11 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.75 4.70096C10.75 5.27831 10.75 6.72169 9.75 7.29904L2.25 11.6292C1.25 12.2065 -5.89441e-07 11.4848 -5.38967e-07 10.3301L-1.60415e-07 1.66987C-1.09942e-07 0.51517 1.25 -0.206516 2.25 0.370835L9.75 4.70096Z' fill='rgb(80, 80, 80)'/%3E%3C/svg%3E%0A");
+}
+
+.parent-arrow {
+    transform: none;
+    transition: 0.1s;
+}
+
+.parent-arrow:hover {
+    cursor: pointer;
+}

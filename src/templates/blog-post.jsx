@@ -16,12 +16,12 @@ const BlogPost = ({ data, children }) => {
             <h1>{title}</h1>
             <span id="article-meta">Un billet écrit par {author} le {data.markdownRemark.fields.date}</span>
             <div id="tags-container">
-              {tags ? tags.map(el => <a className="tag">{el}</a>) : ''}
+              {tags ? tags.map((el, i) => <a className="tag" key={i}>{el}</a>) : ''}
             </div>
           </header>
           <article id="article">
             { abstract ? <aside><p>{abstract}</p></aside> : ''}
-            <section class  Name="blog-content" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
+            <section className="blog-content" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
           </article>
         </div>
       </main>
