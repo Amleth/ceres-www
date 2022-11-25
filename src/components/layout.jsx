@@ -3,21 +3,35 @@ import '../style/general.css'
 import '../style/header.css'
 import '../style/footer.css'
 import '../style/navtag.css'
+import { Link } from "gatsby"
 
 import Logo from '../images/logo.svg'
 
 // import { Link } from 'gatsby'
 
-const menu = ['Accueil', '|', 'Tout', 'Projets', 'Outils', 'Ateliers', 'Podcasts', '|', 'À propos', 'Equipe', 'Contact', '|', 'Contrats et Stages']
+const menu = [{name: 'Accueil', link: '/'}, {name: '|'}, {name:'Tout', link: '/'}, {name: 'Projets', link: '/blog'}, 
+            {name: 'Outils', link: '/outils'}, {name: 'Ateliers', link: '/ateliers'}, {name: 'Podcasts', link: '/podcasts'}, 
+            {name: '|'}, {name: 'À propos', link: '/about'}, { name: 'Equipe', link: '/membres'}, {name: 'Contact', link: '/'}, 
+            {name: '|' }, {name: 'Contrats et Stages', link: '/offres'}]
 
-const Layout = ({ children }) => {
+const Layout = ( { children} ) => {
+    let [tags, setTags] = React.useState([]);
+
+    const toggleTag = (tag) => {
+        if(tags.indexOf(tag) !== -1){
+            setTags(tags.filter(el => el != tag))
+        }
+        else {
+            setTags([...tags, tag])
+        }
+    }
     return (
         <>
-            <LeftNav />
+            <LeftNav selectedTags={tags} toggleTag={toggleTag}/>
             <div id="page-container">
                 <Header />
                 <main>
-                    {children}
+                    {typeof children === "function" ? children(toggleTag, tags) : children}
                 </main>
                 <Footer />
             </div>
@@ -28,7 +42,7 @@ const Layout = ({ children }) => {
 const Header = () => <header>
     <nav id="header">
         <a id="header-logo">Ceres</a>
-        {menu.map((el, i) => el === '|' ? <hr className="header-div-v" key={i}/> : <a className="header-link" key={i}>{el}</a>)}
+        {menu.map((el, i) => !el.link ? <hr className="header-div-v" key={i}/> : <Link className="header-link" key={i} to={el.link}>{el.name}</Link>)}
     </nav>
     <hr id="header-div-h" />
 </header>
@@ -50,9 +64,12 @@ const Footer = () => (
     </div>
 </footer> )
 
-const LeftNav = () => {
-    let [open, setOpen] = React.useState(false)
+export const Tag = ({tagName, selectedTags, toggleTag}) => 
+    <a className={"small-tag" + (selectedTags.indexOf(tagName) !== -1 ? " selected" : "")} onClick={() => toggleTag(tagName)}>{tagName}</a>
 
+
+const LeftNav = ({selectedTags, toggleTag}) => {
+    let [open, setOpen] = React.useState(false)
     return (
         <div id="tags-panel-container" style={{left: open ? '1rem' : '-18rem', 'padding-right': open ? '1rem' : '0.5rem'}}>
             <nav id="tags-panel">
@@ -70,7 +87,7 @@ const LeftNav = () => {
                 <hr style={{visibility: open ? 'visible' : 'hidden' }} />
                 <div id="tags-panel-tree" style={{visibility: open ? 'visible' : 'hidden' }}>
                     <div className="parent-tag-container">
-                        <a className="small-tag" onclick="select_tag(this)">Grocery</a>
+                        <Tag tagName="toto" selectedTags={selectedTags} toggleTag={toggleTag} />
                         <div className="parent-arrow" onclick="display_subconcepts(this)"></div>
                     </div>
                     <div className="tag-list">
@@ -81,46 +98,6 @@ const LeftNav = () => {
                     <div className="parent-tag-container">
                         <a className="small-tag" onclick="select_tag(this)">Climate</a>
                         <div className="parent-arrow" onclick="display_subconcepts(this)"></div>
-                    </div>
-                    <div className="tag-list">
-                        <a className="small-tag" onclick="select_tag(this)">Industry</a>
-                        <a className="small-tag" onclick="select_tag(this)">Obligation</a>
-                        <a className="small-tag" onclick="select_tag(this)">Psychology</a>
-                        <a className="small-tag" onclick="select_tag(this)">Device</a>
-                    </div>
-                    <div className="parent-tag-container">
-                        <a className="small-tag" onclick="select_tag(this)">Judgment</a>
-                        <div className="parent-arrow" onclick="display_subconcepts(this)"></div>
-                    </div>
-                    <div className="tag-list">
-                        <a className="small-tag" onclick="select_tag(this)">Growth</a>
-                        <a className="small-tag" onclick="select_tag(this)">Addition</a>
-                        <a className="small-tag" onclick="select_tag(this)">Concept</a>
-                    </div>
-                    <div className="parent-tag-container">
-                        <a className="small-tag" onclick="select_tag(this)">Candidate</a>
-                        <div className="parent-arrow" onclick="display_subconcepts(this)"></div>
-                    </div>
-                    <div className="tag-list">
-                        <div className="parent-tag-container">
-                            <a className="small-tag" onclick="select_tag(this)">River of fluid information mechanics data
-                                mining</a>
-                            <div className="parent-arrow" onclick="display_subconcepts(this)"></div>
-                        </div>
-                        <div className="tag-list">
-                            <a className="small-tag" onclick="select_tag(this)">Response</a>
-                            <a className="small-tag" onclick="select_tag(this)">Hotel</a>
-                        </div>
-                        <a className="small-tag" onclick="select_tag(this)">Gene</a>
-                        <div className="parent-tag-container">
-                            <a className="small-tag" onclick="select_tag(this)">Information</a>
-                            <div className="parent-arrow" onclick="display_subconcepts(this)"></div>
-                        </div>
-                        <div className="tag-list">
-                            <a className="small-tag" onclick="select_tag(this)">Variation</a>
-                            <a className="small-tag" onclick="select_tag(this)">Presentation</a>
-                            <a className="small-tag" onclick="select_tag(this)">Computer</a>
-                        </div>
                     </div>
                 </div>
             </nav>

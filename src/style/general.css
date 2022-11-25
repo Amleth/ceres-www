@@ -416,6 +416,8 @@ table tr th:last-child {
 .card>img {
     width: calc(100% + 2 * var(--card-padding));
     margin-left: calc(0rem - var(--card-padding));
+    margin-top: 0;
+    max-width: none;
     object-fit: cover;
     height: 13rem;
     border-radius: calc(var(--card-border-radius) - var(--border-width)) calc(var(--card-border-radius) - var(--border-width)) 0 0;
@@ -506,4 +508,11 @@ input {
 
 input:focus {
     background: var(--background-color) !important;
+}
+
+
+main>header {
+    margin: auto;
+    max-width: 47rem;
+    padding: 0 2rem 3rem 2rem;
 }

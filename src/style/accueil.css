@@ -1,0 +1,50 @@
+main>header {
+    margin: auto;
+}
+
+#landing-image {
+    width: 100%;
+    object-fit: cover;
+    height: 50vh;
+}
+
+h1#landing-title {
+    position: relative;
+    top: -3.5rem;
+    font-weight: 300;
+    font-size: 7rem;
+    margin: 0 0 0 calc(1rem + 2.5vw);
+    text-align: left;
+    line-height: 0.8;
+    text-shadow: var(--background-color) 0 0 4rem,
+        var(--background-color) 0 0 4rem,
+        var(--background-color) 0 0 4rem;
+}
+
+#landing-blocks-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 2rem 0 2rem;
+    gap: 2rem;
+}
+
+.landing-block {
+    flex: 1 1 30rem;
+    max-width: 45rem;
+    width: 100%;
+}
+
+img.landing-block {
+    object-fit: cover;
+}
+
+#last-posts-wrapper {
+    margin: 7rem auto 0 auto;
+    max-width: 70rem;
+}
+
+#last-posts-wrapper>h2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

@@ -4,7 +4,7 @@ const path = require(`path`)
 const thesaurus = require(`./src/data/thesaurus.json`)
 
 exports.createPages = async ({ graphql, actions }) => {
-  const { createPage } = actions
+  const { createPage, createRedirect } = actions
 
   ////////////////////////////////////////////////////////////////////////////////
   // BLOG POSTS
@@ -37,6 +37,11 @@ exports.createPages = async ({ graphql, actions }) => {
   if (result.errors) {
     throw result.errors
   }
+
+  // createRedirect({
+  //   fromPath: `/`,
+  //   toPath: `/home/`
+  // })
 
   // Create blog posts pages.
   const posts = result.data.allMarkdownRemark.edges
