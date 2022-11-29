@@ -16,7 +16,7 @@ const menu = [{name: 'Accueil', link: '/'}, {name: '|'}, {name:'Tout', link: '/'
 
 const Layout = ( { children} ) => {
     let [tags, setTags] = React.useState([]);
-
+    let [search, setSearch] = React.useState("");
     const toggleTag = (tag) => {
         if(tags.indexOf(tag) !== -1){
             setTags(tags.filter(el => el != tag))
@@ -27,11 +27,11 @@ const Layout = ( { children} ) => {
     }
     return (
         <>
-            <LeftNav selectedTags={tags} toggleTag={toggleTag}/>
+            <LeftNav selectedTags={tags} toggleTag={toggleTag} search={search} setSearch={setSearch}/>
             <div id="page-container">
                 <Header />
                 <main>
-                    {typeof children === "function" ? children(toggleTag, tags) : children}
+                    {typeof children === "function" ? children(toggleTag, tags, search) : children}
                 </main>
                 <Footer />
             </div>
@@ -68,7 +68,7 @@ export const Tag = ({tagName, selectedTags, toggleTag}) =>
     <a className={"small-tag" + (selectedTags.indexOf(tagName) !== -1 ? " selected" : "")} onClick={() => toggleTag(tagName)}>{tagName}</a>
 
 
-const LeftNav = ({selectedTags, toggleTag}) => {
+const LeftNav = ({selectedTags, toggleTag, search, setSearch}) => {
     let [open, setOpen] = React.useState(false)
     return (
         <div id="tags-panel-container" style={{left: open ? '1rem' : '-18rem', 'padding-right': open ? '1rem' : '0.5rem'}}>
@@ -81,8 +81,7 @@ const LeftNav = ({selectedTags, toggleTag}) => {
                     <p>Cliquez sur les concepts pour les inclure dans la recherche, cliquez sur les flèches pour afficher
                         les
                         sous-concepts</p>
-                    <input type="text" placeholder="Recherche dans le texte" />
-                    <a className="button">Lancer la recherche -&gt;</a>
+                    <input type="text" placeholder="Recherche dans le texte" value={search} onChange={(e) => setSearch(e.target.value)}/>
                 </div>
                 <hr style={{visibility: open ? 'visible' : 'hidden' }} />
                 <div id="tags-panel-tree" style={{visibility: open ? 'visible' : 'hidden' }}>
