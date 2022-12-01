@@ -44,19 +44,22 @@ exports.createPages = async ({ graphql, actions }) => {
   // })
 
   // Create blog posts pages.
-  const posts = result.data.allMarkdownRemark.edges
+  const posts = result.data.allMarkdownRemark.edges.filter(el => el.node.fields.collection === 'blog-posts')
+  const members = result.data.allMarkdownRemark.edges.filter(el => el.node.fields.collection === 'membres')
+
+  console.log(posts.length)
 
   posts.forEach((post, index) => {
-    const previous = index === posts.length - 1 ? null : posts[index + 1].node
-    const next = index === 0 ? null : posts[index - 1].node
+    // const previous = index === posts.length - 1 ? null : posts[index + 1].node
+    // const next = index === 0 ? null : posts[index - 1].node
 
     createPage({
       path: '/blog/' + post.node.fields.slug,
       component: path.resolve(`./src/templates/blog-post.jsx`),
       context: {
         slug: post.node.fields.slug,
-        previous,
-        next,
+        // previous,
+        // next,
       },
     })
   })
@@ -89,19 +92,24 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
 
     const date = slug.split('_')[0]
-    
-    createNodeField({
-      node: node,
-      name: `date`,
-      value: date,
-    })
+
+    // on ne créé la date que si elle est présente dans le slug
+    if(date.match(/\d{4}-\d{2}-\d{2}/)){
+      createNodeField({
+        node: node,
+        name: `date`,
+        value: date,
+      })
+    }
 
     const parent = getNode(node.parent)
-    let collection = parent.sourceInstanceName
+    const collection = parent.sourceInstanceName
+
     createNodeField({
       node: node,
       name: `collection`,
       value: collection,
     })
+    console.log(collection)
   }
 }

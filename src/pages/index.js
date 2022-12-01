@@ -121,7 +121,7 @@ const HomeHeader = () => (
 
 export const query = graphql`
   query MyQuery {
-    allMarkdownRemark(sort: {fields: fields___date, order: DESC}, filter: {}, limit: 999) {
+    allMarkdownRemark(sort: {fields: fields___date, order: DESC}, filter: {fields: {date: {ne: null}}}, limit: 999) {
         nodes {
             frontmatter {
                 tags

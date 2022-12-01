@@ -69,7 +69,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `membres`,
+        name: `cards_membres`,
         path: `${__dirname}/src/data/membres/`,
       },
     },
