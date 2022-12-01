@@ -15,19 +15,32 @@ const menu = [{name: 'Accueil', link: '/'}, {name: '|'}, {name:'Tout', link: '/'
             {name: '|' }, {name: 'Contrats et Stages', link: '/offres'}]
 
 const Layout = ( { children} ) => {
+    // TODO: ajouter la requête graphql qui récupèrera le thésaurus
     let [tags, setTags] = React.useState([]);
     let [search, setSearch] = React.useState("");
-    const toggleTag = (tag) => {
+    let [open, setOpen] = React.useState(false);
+
+    const toggleTag = (tag, nav=false) => {
+        // TODO: ajouter coloration des enfants tags si il y en a
+        // si le tag est déjà sélectionné on le déselectionne
         if(tags.indexOf(tag) !== -1){
             setTags(tags.filter(el => el != tag))
+            // on referme le nav en déselectionnant le dernier tag sélectionné
+            if(open && !nav && tags.length === 1){
+                setOpen(false)
+            }
         }
+        // sinon c'est l'inverse
         else {
             setTags([...tags, tag])
+            if(!open){
+                setOpen(true)
+            }
         }
     }
     return (
         <>
-            <LeftNav selectedTags={tags} toggleTag={toggleTag} search={search} setSearch={setSearch}/>
+            <LeftNav selectedTags={tags} toggleTag={toggleTag} search={search} setSearch={setSearch} open={open} setOpen={setOpen}/>
             <div id="page-container">
                 <Header />
                 <main>
@@ -64,12 +77,11 @@ const Footer = () => (
     </div>
 </footer> )
 
-export const Tag = ({tagName, selectedTags, toggleTag}) => 
-    <a className={"small-tag" + (selectedTags.indexOf(tagName) !== -1 ? " selected" : "")} onClick={() => toggleTag(tagName)}>{tagName}</a>
+export const Tag = ({tagName, selectedTags, toggleTag, nav=false}) => 
+    <a className={"small-tag" + (selectedTags.indexOf(tagName) !== -1 ? " selected" : "")} onClick={() => toggleTag(tagName, nav)}>{tagName}</a>
 
 
-const LeftNav = ({selectedTags, toggleTag, search, setSearch}) => {
-    let [open, setOpen] = React.useState(false)
+const LeftNav = ({open, setOpen, selectedTags, toggleTag, search, setSearch}) => {
     return (
         <div id="tags-panel-container" style={{left: open ? '1rem' : '-18rem', 'padding-right': open ? '1rem' : '0.5rem'}}>
             <nav id="tags-panel">
@@ -86,7 +98,7 @@ const LeftNav = ({selectedTags, toggleTag, search, setSearch}) => {
                 <hr style={{visibility: open ? 'visible' : 'hidden' }} />
                 <div id="tags-panel-tree" style={{visibility: open ? 'visible' : 'hidden' }}>
                     <div className="parent-tag-container">
-                        <Tag tagName="toto" selectedTags={selectedTags} toggleTag={toggleTag} />
+                        <Tag tagName="toto" selectedTags={selectedTags} toggleTag={toggleTag} nav={true}/>
                         <div className="parent-arrow" onclick="display_subconcepts(this)"></div>
                     </div>
                     <div className="tag-list">

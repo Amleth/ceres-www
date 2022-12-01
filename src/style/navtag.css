@@ -78,21 +78,7 @@ only screen and (hover: none) and (pointer: coarse) {
 /* Tags du panneau */
 
 #tags-panel-tree .small-tag {
-    color: var(--disabled-color);
-    border-color: var(--disabled-color);
     margin-top: 0.5rem;
-    cursor: pointer;
-}
-
-#tags-panel-tree .small-tag:hover {
-    border-color: rgba(var(--main), 0.6) !important;
-    background-color: var(--background-color);
-    color: rgba(var(--main), 0.9) !important;
-}
-
-#tags-panel-tree .small-tag.selected {
-    color: var(--main-color) !important;
-    border-color: var(--main-color) !important;
 }
 
 /* Listes de tags */

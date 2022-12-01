@@ -78,7 +78,7 @@ const Card = ({postData, toggleTag, selectedTags}) => {
 
 const HomeHeader = () => (
         <header>
-            <img id="landing-image" src={Planet} style={{maxWidth: "100%"}}/>
+            <img id="landing-image" src={Planet} style={{maxWidth: "100%", margin: 0}}/>
             <h1 id="landing-title">Ceres</h1>
             <div id="landing-blocks-container">
                 <div className="landing-block">

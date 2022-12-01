@@ -37,6 +37,7 @@ h1#landing-title {
 
 img.landing-block {
     object-fit: cover;
+    margin: 0px;
 }
 
 #last-posts-wrapper {
