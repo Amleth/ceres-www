@@ -24,9 +24,9 @@ module.exports = {
         plugins: [
           {
             resolve: `gatsby-remark-images`,
-            // options: {
-            //   maxWidth: 590,
-            // },
+            options: {
+              maxWidth: 590,
+            },
           },
           {
             resolve: `gatsby-remark-responsive-iframe`,
@@ -51,14 +51,14 @@ module.exports = {
       },
       __key: "images"
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        "name": "pages",
-        "path": "./src/pages/"
-      },
-      __key: "pages"
-    },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     "name": "pages",
+    //     "path": "./src/pages/"
+    //   },
+    //   __key: "pages"
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -66,12 +66,12 @@ module.exports = {
         path: `${__dirname}/src/data/blog/`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `cards_membres`,
-        path: `${__dirname}/src/data/membres/`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `cards_membres`,
+    //     path: `${__dirname}/src/data/membres/`,
+    //   },
+    // },
   ],
 };

@@ -4,3 +4,4 @@ Générer le gatsby config procéduralement
 Rendre le CardLayout comme un composant à part (avec paramètre pour préciser le type de carte)
 Trouver comment intégrer les images
 Trouver comment intégrer les sons
+=> intégrer les images et les sons à partir de nodes > fields > sound > publicURL

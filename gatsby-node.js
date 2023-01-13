@@ -1,6 +1,6 @@
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const path = require(`path`)
-
+const fs = require('fs')
 const thesaurus = require(`./src/data/thesaurus.json`)
 
 exports.createPages = async ({ graphql, actions }) => {
@@ -85,6 +85,8 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
     const slug = createFilePath({ node, getNode }).replace('/', '')
 
+    // console.log(createFilePath({node, getNode}))
+
     createNodeField({
       node: node,
       name: `slug`,
@@ -110,6 +112,23 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       name: `collection`,
       value: collection,
     })
-    console.log(collection)
+
+    const files = fs.readdirSync(path.dirname(node.fileAbsolutePath)).filter(el => el !== 'index.md')
+    const images = files.filter(el => el.endsWith('.png') || el.endsWith('.jpeg') || el.endsWith('.jpg'))
+    const sounds = files.filter(el => el.endsWith('.mp3') || el.endsWith('.wav') || el.endsWith('.ogg'))
+
+    console.log(sounds)
+    
+    createNodeField({
+      node: node,
+      name: "image",
+      value: images[0] ?? null
+    })
+
+    createNodeField({
+      node: node,
+      name: "sound",
+      value: sounds[0] ?? null
+    })
   }
 }
