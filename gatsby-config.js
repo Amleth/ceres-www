@@ -1,13 +1,20 @@
-module.exports = {
+const fs = require('fs')
+const path = require('path')
+
+const DIR = './src/data'
+const folders = fs.readdirSync(DIR)
+
+let config = {
   siteMetadata: {
-    title: `ceres-www`,
+    title: `Ceres Sorbonne`,
     siteUrl: `https://www.yourdomain.tld`,
     authors: [
       { id: `thomas`, name: `Thomas Bottini` },
       { id: `felix`, name: `Félix Alié` },
       { id: `edouard`, name: `Édouard Bouté` },
       { id: `ceres`, name: `L'équipe CERES` }
-    ]
+    ],
+    pages: []
   },
   plugins: [
     "gatsby-plugin-emotion",
@@ -51,27 +58,14 @@ module.exports = {
       },
       __key: "images"
     },
-    // {
-    //   resolve: 'gatsby-source-filesystem',
-    //   options: {
-    //     "name": "pages",
-    //     "path": "./src/pages/"
-    //   },
-    //   __key: "pages"
-    // },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `blog-posts`,
-        path: `${__dirname}/src/data/blog/`,
-      },
-    },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `cards_membres`,
-    //     path: `${__dirname}/src/data/membres/`,
-    //   },
-    // },
   ],
 };
+
+folders.forEach(folder => {
+  if(!folder.startsWith('_') && fs.statSync(path.join(DIR, folder)).isDirectory() && folder !== '.git' ){
+    config.plugins.push({resolve: 'gatsby-source-filesystem', options: {name: folder.split('_')[1], path: path.join(DIR, folder)}})
+    config.siteMetadata.pages.push(folder)
+  }
+})
+
+module.exports = config

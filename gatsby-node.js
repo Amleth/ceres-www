@@ -13,6 +13,11 @@ exports.createPages = async ({ graphql, actions }) => {
   const result = await graphql(
     `
       {
+        site {
+          siteMetadata {
+            pages
+          }
+        }
         allMarkdownRemark(
           sort: { fields: [fields___date], order: DESC }
           limit: 1000
@@ -38,26 +43,35 @@ exports.createPages = async ({ graphql, actions }) => {
     throw result.errors
   }
 
-  // createRedirect({
-  //   fromPath: `/`,
-  //   toPath: `/home/`
-  // })
+  // Create all main pages except Accueil
+  const pagesToCreate = result.data.site.siteMetadata.pages
 
-  // Create blog posts pages.
-  const posts = result.data.allMarkdownRemark.edges.filter(el => el.node.fields.collection === 'blog-posts')
-  const members = result.data.allMarkdownRemark.edges.filter(el => el.node.fields.collection === 'membres')
+  pagesToCreate.forEach(page => {
+    console.log(page)
+    const [template, pageName] = page.split('_')
+    createPage({
+      path: `/${pageName}/`,
+      component: path.resolve(`./src/templates/${template}.jsx`),
+      context: {
+        pageName: pageName
+      },
+    })
+  })
 
-  console.log(posts.length)
+  // Create all pages with the same template, this might change later if we want to do markdown pages with specifics templates
+  const posts = result.data.allMarkdownRemark.edges.filter(el => el.node.fields.collection === 'blog')
 
-  posts.forEach((post, index) => {
+  result.data.allMarkdownRemark.edges.forEach((edge, index) => {
+    const fields = edge.node.fields
+    const collection = fields.collection
     // const previous = index === posts.length - 1 ? null : posts[index + 1].node
     // const next = index === 0 ? null : posts[index - 1].node
 
     createPage({
-      path: '/blog/' + post.node.fields.slug,
+      path: `/${collection}/` + fields.slug,
       component: path.resolve(`./src/templates/blog-post.jsx`),
       context: {
-        slug: post.node.fields.slug,
+        slug: fields.slug,
         // previous,
         // next,
       },
@@ -116,8 +130,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     const files = fs.readdirSync(path.dirname(node.fileAbsolutePath)).filter(el => el !== 'index.md')
     const images = files.filter(el => el.endsWith('.png') || el.endsWith('.jpeg') || el.endsWith('.jpg'))
     const sounds = files.filter(el => el.endsWith('.mp3') || el.endsWith('.wav') || el.endsWith('.ogg'))
-
-    console.log(sounds)
     
     createNodeField({
       node: node,

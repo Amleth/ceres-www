@@ -1,7 +1,8 @@
 Générer les pages membres procéduralement
 Gérer la page "index" de chaque catégorie avec son template
-Générer le gatsby config procéduralement
+Générer le gatsby config procéduralement: done
 Rendre le CardLayout comme un composant à part (avec paramètre pour préciser le type de carte)
 Trouver comment intégrer les images
 Trouver comment intégrer les sons
 => intégrer les images et les sons à partir de nodes > fields > sound > publicURL
+Gérer l'ordre des pages

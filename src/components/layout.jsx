@@ -3,18 +3,27 @@ import '../style/general.css'
 import '../style/header.css'
 import '../style/footer.css'
 import '../style/navtag.css'
-import { Link } from "gatsby"
+import { Link, graphql, useStaticQuery } from "gatsby"
 
 import Logo from '../images/logo.svg'
 
 // import { Link } from 'gatsby'
 
-const menu = [{name: 'Accueil', link: '/'}, {name: '|'}, {name:'Tout', link: '/'}, {name: 'Projets', link: '/blog'}, 
-            {name: 'Outils', link: '/outils'}, {name: 'Ateliers', link: '/ateliers'}, {name: 'Podcasts', link: '/podcasts'}, 
-            {name: '|'}, {name: 'À propos', link: '/about'}, { name: 'Equipe', link: '/membres'}, {name: 'Contact', link: '/'}, 
-            {name: '|' }, {name: 'Contrats et Stages', link: '/offres'}]
-
-const Layout = ( { children} ) => {
+const Layout = ( {children} ) => {
+    const data = useStaticQuery(graphql`
+        query GetPages{
+            site {
+                siteMetadata {
+                    pages
+                }
+            }
+        }
+    `)
+    const pages = data.site.siteMetadata.pages.map(page => {
+        const name = page.split('_')[1]
+        return {name: name[0].toUpperCase() + name.slice(1), link: `/${name}/`}
+    })
+    const menu = [{name: 'Accueil', link: '/'}, {name: '|'}, ...pages]
     // TODO: ajouter la requête graphql qui récupèrera le thésaurus
     let [tags, setTags] = React.useState([]);
     let [search, setSearch] = React.useState("");
@@ -42,7 +51,7 @@ const Layout = ( { children} ) => {
         <>
             <LeftNav selectedTags={tags} toggleTag={toggleTag} search={search} setSearch={setSearch} open={open} setOpen={setOpen}/>
             <div id="page-container">
-                <Header />
+                <Header menu={menu}/>
                 <main>
                     {typeof children === "function" ? children(toggleTag, tags, search) : children}
                 </main>
@@ -52,7 +61,7 @@ const Layout = ( { children} ) => {
     )
 }
 
-const Header = () => <header>
+const Header = ({menu}) => <header>
     <nav id="header">
         <a id="header-logo">Ceres</a>
         {menu.map((el, i) => !el.link ? <hr className="header-div-v" key={i}/> : <Link className="header-link" key={i} to={el.link}>{el.name}</Link>)}
