@@ -5,9 +5,15 @@ export const filterNodes = (nodes, search, searchTags) => nodes.filter(node => {
     const {title, tags, abstract} = node.frontmatter
     const nodeTags = tags ? tags : []
     const nodeText = abstract ? abstract : node.excerpt
-
+    
     // asume we want to keep the node
     let keepNode = true
+    
+    // remove nodes that are descriping main pages 
+    if(node.fields.slug === ""){
+        keepNode = false
+    }
+
     // is search is set, and if search is not in the tags nor the title nor the abstract
     if(search.trim().toLowerCase() !== "" && (nodeTags.indexOf(search) === -1 && title.toLowerCase().indexOf(search) === -1 && nodeText.toLowerCase().indexOf(search) === -1)){
         keepNode = false

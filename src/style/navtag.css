@@ -81,6 +81,13 @@ only screen and (hover: none) and (pointer: coarse) {
     margin-top: 0.5rem;
 }
 
+/* Liste non ordonnée de tags */
+
+.wild-tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
 /* Listes de tags */
 
 #tags-panel-tree,

@@ -17,6 +17,13 @@ const Layout = ( {children} ) => {
                     pages
                 }
             }
+            allMarkdownRemark {
+                nodes {
+                  frontmatter {
+                    tags
+                  }
+                }
+            }
         }
     `)
     const pages = data.site.siteMetadata.pages.map(page => {
@@ -24,6 +31,7 @@ const Layout = ( {children} ) => {
         return {name: name[0].toUpperCase() + name.slice(1), link: `/${name}/`}
     })
     const menu = [{name: 'Accueil', link: '/'}, {name: '|'}, ...pages]
+    const allTags = new Set(data.allMarkdownRemark.nodes.map(el => el.frontmatter.tags).filter(el => el !== null).flat())
     // TODO: ajouter la requête graphql qui récupèrera le thésaurus
     let [tags, setTags] = React.useState([]);
     let [search, setSearch] = React.useState("");
@@ -49,7 +57,7 @@ const Layout = ( {children} ) => {
     }
     return (
         <>
-            <LeftNav selectedTags={tags} toggleTag={toggleTag} search={search} setSearch={setSearch} open={open} setOpen={setOpen}/>
+            <LeftNav allTags={[...allTags]} selectedTags={tags} toggleTag={toggleTag} search={search} setSearch={setSearch} open={open} setOpen={setOpen}/>
             <div id="page-container">
                 <Header menu={menu}/>
                 <main>
@@ -63,7 +71,7 @@ const Layout = ( {children} ) => {
 
 const Header = ({menu}) => <header>
     <nav id="header">
-        <a id="header-logo">Ceres</a>
+        <a id="header-logo" href="/">Ceres</a>
         {menu.map((el, i) => !el.link ? <hr className="header-div-v" key={i}/> : <Link className="header-link" key={i} to={el.link}>{el.name}</Link>)}
     </nav>
     <hr id="header-div-h" />
@@ -90,35 +98,34 @@ export const Tag = ({tagName, selectedTags, toggleTag, nav=false}) =>
     <a className={"small-tag" + (selectedTags.indexOf(tagName) !== -1 ? " selected" : "")} onClick={() => toggleTag(tagName, nav)}>{tagName}</a>
 
 
-const LeftNav = ({open, setOpen, selectedTags, toggleTag, search, setSearch}) => {
+const LeftNav = ({allTags, open, setOpen, selectedTags, toggleTag, search, setSearch}) => {
+    console.log(allTags)
     return (
         <div id="tags-panel-container" style={{left: open ? '1rem' : '-18rem', 'padding-right': open ? '1rem' : '0.5rem'}}>
             <nav id="tags-panel">
                 <div id="title-button-container">
-                    <p style={{visibility: open ? 'visible' : 'hidden' }}><strong>Recherche de contenus par concepts</strong></p>
+                    <p style={{visibility: open ? 'visible' : 'hidden' }}>
+                        <strong>Recherche de contenus par concepts</strong>
+                    </p>
                     <a className="arrow" onClick={() => setOpen(!open)}> {open ? '←' : '→'}</a>
                 </div>
                 <div id="tags-panel-text" style={{visibility: open ? 'visible' : 'hidden' }}>
-                    <p>Cliquez sur les concepts pour les inclure dans la recherche, cliquez sur les flèches pour afficher
-                        les
-                        sous-concepts</p>
+                    <p>Cliquez sur les concepts pour les inclure dans la recherche, cliquez sur les flèches pour afficher les sous-concepts.</p>
                     <input type="text" placeholder="Recherche dans le texte" value={search} onChange={(e) => setSearch(e.target.value)}/>
                 </div>
                 <hr style={{visibility: open ? 'visible' : 'hidden' }} />
                 <div id="tags-panel-tree" style={{visibility: open ? 'visible' : 'hidden' }}>
-                    <div className="parent-tag-container">
+                    {/* <div className="parent-tag-container">
                         <Tag tagName="toto" selectedTags={selectedTags} toggleTag={toggleTag} nav={true}/>
                         <div className="parent-arrow" onclick="display_subconcepts(this)"></div>
+                    </div> */}
+                    <div className="wild-tags">
+                        {allTags.map(el => <Tag tagName={el} selectedTags={selectedTags} toggleTag={toggleTag} nav={true}/>)}
                     </div>
-                    <div className="tag-list">
-                        <a className="small-tag" onclick="select_tag(this)">Pie</a>
-                        <a className="small-tag" onclick="select_tag(this)">Method</a>
-                        <a className="small-tag" onclick="select_tag(this)">Teacher</a>
-                    </div>
-                    <div className="parent-tag-container">
+                    {/* <div className="parent-tag-container">
                         <a className="small-tag" onclick="select_tag(this)">Climate</a>
                         <div className="parent-arrow" onclick="display_subconcepts(this)"></div>
-                    </div>
+                    </div> */}
                 </div>
             </nav>
         </div>

@@ -1,9 +1,7 @@
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import * as React from 'react'
 import Layout from '../components/layout'
-import Miniature from '../images/4.jpg'
 import Planet from '../images/5.png'
-import { Tag } from "../components/layout"
 import { Card } from "../components/card"
 import {filterNodes} from "../helpers"
 
@@ -88,6 +86,7 @@ export const query = graphql`
                 abstract
             }
             fields {
+                collection
                 date(formatString: "DD MMMM, YYYY", locale: "fr")
                 slug
                 image {

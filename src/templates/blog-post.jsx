@@ -5,6 +5,7 @@ import '../style/article.css'
 
 const BlogPost = ({ data, children }) => {
   const { author, title, tags, abstract } = data.markdownRemark.frontmatter
+  const sound = data.markdownRemark.fields.sound
   const authorName = data.site.siteMetadata.authors.find(el => el.id === author).name
   return (
     <Layout>
@@ -22,6 +23,13 @@ const BlogPost = ({ data, children }) => {
           </header>
           <article id="article">
             { abstract ? <aside><p>{abstract}</p></aside> : ''}
+            {
+                sound?.publicURL && (
+                    <audio controls>
+                        <source src={sound.publicURL} type="audio/wav"/>
+                    </audio>
+                )
+            }
             <section className="blog-content" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
           </article>
         </div>
@@ -55,6 +63,9 @@ export const query = graphql`
         date(formatString: "DD MMMM, YYYY", locale: "fr")
         slug
         collection
+        sound{
+          publicURL
+        }
       }
       tableOfContents
     }

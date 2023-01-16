@@ -1,10 +1,10 @@
 import { graphql } from "gatsby"
 import * as React from 'react'
-import { Card } from "../components/card"
+import { LongCard } from "../components/longcard"
 import Layout from '../components/layout'
 import { filterNodes } from "../helpers"
 import "../style/accueil.css"
-import "../style/cards.css"
+import "../style/long-cards.css"
 
 const CardsLayout = ({ data }) => {
     const nodes = data.allMarkdownRemark.nodes
@@ -26,7 +26,7 @@ const CardsLayout = ({ data }) => {
                         }
                         <div id="cards-wrapper">
                             <div id="cards-container">
-                                {filtered.map(el => <Card postData={el} toggleTag={toggleTag} selectedTags={tags}/>)}
+                                {filtered.map(el => <LongCard postData={el} toggleTag={toggleTag} selectedTags={tags}/>)}
                             </div>
                         </div>
                     </div>
@@ -52,9 +52,9 @@ export const query = graphql`
             abstract
             }
             fields {
-            collection
             date(formatString: "DD MMMM, YYYY", locale: "fr")
             slug
+            collection
             image {
                 publicURL
             }

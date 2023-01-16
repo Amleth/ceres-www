@@ -1,0 +1,84 @@
+.cards-header {
+    margin: auto;
+    max-width: 47rem;
+    padding: 0 2rem 3rem 2rem;
+}
+
+#cards-container {
+    max-width: 80rem;
+}
+
+/* Cartes longues */
+
+.long-card {
+    position: relative;
+    flex: 1 1 32rem;
+    max-width: 100%;
+    height: 15rem;
+    padding: var(--card-padding);
+    border: var(--hr);
+    border-radius: var(--card-border-radius);
+    transition: 0.1s;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    gap: 1.5rem;
+    background: var(--background-color);
+}
+
+.long-card:hover {
+    background-color: var(--light-background);
+}
+
+.long-card>img {
+    flex: 1 1 10rem;
+    max-width: 15rem;
+    object-fit: cover;
+    margin: calc(0rem - var(--card-padding)) 0 0 calc(0rem - var(--card-padding));
+    height: calc(100% + 2 * var(--card-padding));
+    border-radius: calc(var(--card-border-radius) - var(--border-width)) 0 0 calc(var(--card-border-radius) - var(--border-width));
+    z-index: 1;
+}
+
+.description {
+    display: flex;
+    flex: 1 1 auto;
+    width: 60%;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.description>* {
+    margin: 0;
+}
+
+.description>h4 {
+    flex: 0 0 content;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.description>.small-tags-container {
+    flex: 0 0 content;
+}
+
+.description>.text-sample {
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+
+.long-card:hover .text-sample:before {
+    background: linear-gradient(0deg, var(--light-background) 0%, var(--light-background) 40%, transparent);
+}
+
+.description>audio {
+    z-index: 3;
+    flex: 0 0 auto;
+    width: 100%;
+}

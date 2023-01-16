@@ -4,12 +4,12 @@ import * as React from 'react'
 
 
 export const Card = ({postData, toggleTag, selectedTags}) => {
-    const {date, slug, image, sound} = postData.fields
+    const {date, slug, image, sound, collection} = postData.fields
     const {title, tags, abstract} = postData.frontmatter
 
     return (
     <div className="card">
-        <Link className="card-link" to={"/blog/" + slug}/>
+        <Link className="card-link" to={`/${collection}/` + slug}/>
         {image?.publicURL && (<img src={image.publicURL} />)}
         <h4>{title}</h4>
         <div class="small-tags-container">

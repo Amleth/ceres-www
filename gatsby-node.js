@@ -64,6 +64,10 @@ exports.createPages = async ({ graphql, actions }) => {
   result.data.allMarkdownRemark.edges.forEach((edge, index) => {
     const fields = edge.node.fields
     const collection = fields.collection
+
+    if(fields.slug === ""){
+      return
+    }
     // const previous = index === posts.length - 1 ? null : posts[index + 1].node
     // const next = index === 0 ? null : posts[index - 1].node
 
